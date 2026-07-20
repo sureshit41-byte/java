@@ -1,0 +1,15 @@
+package DAY21;
+
+public class squarex {
+        public int mySqrt(int x) {
+
+            int ans = 0;
+
+            for (long i = 0; i * i <= x; i++) {
+                ans = (int) i;
+            }
+
+            return ans;
+        }
+    }
+
