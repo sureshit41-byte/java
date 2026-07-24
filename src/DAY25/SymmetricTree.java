@@ -19,6 +19,6 @@ class SymmetricTree {
                     mirror(a.left, b.right) &&
                     mirror(a.right, b.left);
         }
-    }
+
 
 }

@@ -20,5 +20,5 @@ public class DiameterBinaryTree {
 
             return 1 + Math.max(left, right);
         }
-    }
+
 }
